@@ -1,0 +1,17 @@
+name: eeng765
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - matplotlib
+  - numpy
+  - scipy
+  - pyglet
+  - tqdm
+  - opencv>=4.0
+  # These ones are not required, but I sure like them
+  # (Makes working with VS code and python notebooks easier)
+  - ipython
+  - pylint
+  - ipykernel
