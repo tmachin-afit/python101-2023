@@ -1,10 +1,11 @@
-name: eeng765
+name: eeng032
 channels:
   - defaults
   - conda-forge
 dependencies:
   - python=3.11
   - matplotlib
+  - pandas
   - numpy
   - scipy
   - pyglet
